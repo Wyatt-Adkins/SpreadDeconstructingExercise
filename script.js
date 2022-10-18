@@ -34,6 +34,7 @@ const disneyjunior = [`Mickey Mouse Clubhouse`, `Spidey and his amazing friends`
 const [Mickey, Spidey] = disneyjunior;
 // 3c
 console.log (disneyjunior)
+console.log (Mickey,Spidey)
 
 // finished with 3
 
@@ -53,7 +54,7 @@ const MoreAvengers = {
     ironman:'Tony Stark'
 };
 // 4e
-const {nat,...others} = MoreAvengers;
+const {blackwidow:nat,...others} = MoreAvengers;
 // 4f
 console.log (nat,others)
 
@@ -66,7 +67,7 @@ const bonus = {
 };
 
 // 5a
-const all = [...first, ...second, ...third];
+const all = [...bonus.first, ...bonus.second, ...bonus.third];
 // 5b
 const {one,two,three,four,five,six,seven,eight,nine} = all;
 
