@@ -69,6 +69,6 @@ const bonus = {
 // 5a
 const all = [...bonus.first, ...bonus.second, ...bonus.third];
 // 5b
-const {one,two,three,four,five,six,seven,eight,nine} = all;
+const [one,two,three,four,five,six,seven,eight,nine] = all;
 
 
